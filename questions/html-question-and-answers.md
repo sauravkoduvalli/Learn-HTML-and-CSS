@@ -1,15 +1,15 @@
 # HTML Interview Questions and Answers
 
-| No. | Question                                                                                                          |
-| --- | ----------------------------------------------------------------------------------------------------------------- |
-| 1   | [What is HTML?](#1-what-is-HTML)                                                                                  |
-| 2   | [Describe the basic structure of an HTML page?](#2-describe-the-basic-structure-of-an-html-page)                  |
-| 3   | [Why place `<script>` at the end of `<body>`?](#3-why-place-script-at-the-end-of-body)                            |
-| 4   | [Explain difference between Elements and Tags in HTML?](#4-explain-difference-between-elements-and-tags-in-html)  |
-| 5   | [What are void elements in HTML?](#5-what-are-void-elements-in-html)                                              |
-| 6   | [What is an attribute in HTML and it's different types?](#6-what-is-an-attribute-in-html-and-its-different-types) |
-| 7   | [Explain the defer and async attributes used in `<script>` tag?]()                                                |
-|     | []()                                                                                                              |
+| No. | Question                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | [What is HTML?](#1-what-is-HTML)                                                                                               |
+| 2   | [Describe the basic structure of an HTML page?](#2-describe-the-basic-structure-of-an-html-page)                               |
+| 3   | [Why place `<script>` at the end of `<body>`?](#3-why-place-script-at-the-end-of-body)                                         |
+| 4   | [Explain difference between Elements and Tags in HTML?](#4-explain-difference-between-elements-and-tags-in-html)               |
+| 5   | [What are void elements in HTML?](#5-what-are-void-elements-in-html)                                                           |
+| 6   | [What is an attribute in HTML and it's different types?](#6-what-is-an-attribute-in-html-and-its-different-types)              |
+| 7   | [Explain the defer and async attributes used in `<script>` tag?](#7-explain-the-defer-and-async-attributes-used-in-script-tag) |
+|     | []()                                                                                                                           |
 
 ---
 
@@ -95,7 +95,12 @@ In HTML, an attribute provides additional information about an HTML element. Att
 <element_name attribute_name="value">Content</element_name>
 ```
 
-Most attributes consist of a _name_ and a _value_, separated by an _equals sign (=)_. The value is enclosed in quotation marks (_single_ or _double_).
+Most attributes consist of a _name_ and a _value_, separated by an _equals sign (=)_. The value is enclosed in quotation marks (_single_ or _double_).The different types of attribute are:
+
+1. **Global Attributes**: can be used on almost all elements (e.g, `id`, `class`, `style`, `title`, `lang`).
+2. **Element-Specific Attributes**: work only on particular elements (e.g., `<img>` -> `src`, `alt`, `width`, `height` and `<a>` -> `href`, `target`),
+3. **Boolean Attributes**: true by presence, false by absence (e.g., `disabled`, `checked`, `readonly`, `multiple`, `required`, `defer`).
+4. **Event Attributes**: attach JavaScript events directly (e.g., `onclick`, `onmouseover`, `onchange`, `onkeydown`)
 
 [⬆️Go to top](#html-interview-questions-and-answers)
 
