@@ -1,27 +1,34 @@
-# Interview Question and Answers
+# Frontend Interview QA
 
-A curated collection of Frontend programming concepts designed to help professionals — from beginners to advanced — prepare for interviews with clarity and confidence.
+A comprehensive collection of interview questions and answers for frontend development. This repository covers essential topics including HTML, CSS, JavaScript, TypeScript, React, React Hooks, and more core subjects to help you prepare for technical interviews.
 
 ---
 
 ## 📖 Table of Contents
 
-- [HTML Concepts](questions/html-question-and-answers.md)  
-- [CSS Concepts](questions/css-questions-and-answers.md)
+- [HTML ](subjects/html.md)
+- [CSS ](subjects/css.md)
+- [JavaScript ](subjects/javascript.md)
+- [TypeScript ](subjects/typescript.md)
+- [React ](subjects/react.md)
+- [React Hooks ](subjects/react-hooks.md)
 
 ---
 
 ## 🎯 Who is this for?
-- Beginners brushing up for their first interviews.  
-- Intermediate developers preparing for mid-level roles.  
-- Advanced professionals revisiting core fundamentals.  
+
+- Candidates preparing for frontend developer interviews.
+- Developers strengthening their core concepts.
+- Teams establishing coding standards and best practices.
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! If you’d like to add more Q&A or examples, feel free to open a pull request.  
+
+Contributions are welcome! If you'd like to add more topics or improve existing Q&A, feel free to open a pull request.
 
 ---
 
 ## 📜 License
+
 MIT © [Saurav K]
